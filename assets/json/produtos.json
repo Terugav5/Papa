@@ -1,0 +1,32 @@
+{
+  "cantina": {
+    "nome": "Cantina Doce & Sabor",
+    "cardapio": [
+      {
+        "id": 1,
+        "nome": "Salgado Assado (Frango com Catupiry)",
+        "preco": 7.50,
+        "imagem": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": 2,
+        "nome": "Suco Natural 500ml",
+        "preco": 6.00,
+        "imagem": "https://images.unsplash.com/photo-1613478223719-2ab802602423?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": 3,
+        "nome": "Refrigerante Lata 350ml",
+        "preco": 5.00,
+        "imagem": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": 4,
+        "nome": "Brigadeiro Gourmet",
+        "preco": 3.50,
+        "imagem": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=800&q=80"
+      }
+    ]
+  }
+}
+
