@@ -109,11 +109,17 @@ class CartService extends ChangeNotifier {
     return itens;
   }
 
-  int get totalItensSincrono =>
-      _quantidades.values.fold(0, (soma, qtd) => soma + qtd);
+  int get totalItensSincrono => _quantidades.values.fold<int>(
+        0,
+        (soma, qtd) => soma + qtd,
+      );
 
   Future<double> totalAtual() async {
     final itens = await itensAtuais();
-    return itens.fold(0.0, (soma, item) => soma + item.subtotal);
+    final double total = itens.fold<double>(
+      0.0,
+      (soma, item) => soma + item.subtotal,
+    );
+    return total;
   }
 }
